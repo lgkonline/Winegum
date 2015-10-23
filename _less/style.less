@@ -21,6 +21,13 @@
 
 @import "_mixins";
 
+// General area
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 // Header area
 #masthead {
 	background-size: 100%;
@@ -39,6 +46,18 @@
 }
 
 // Content area
+#page {
+	flex: 1;
+	background-color: fade(#fff, 70%);
+}
+
+.post {
+	background-color: #fff;
+	padding: 10px 20px 20px 20px;
+	box-shadow: 0px 3px 12px fade(@gray, 50%);
+	color: @gray-dark;
+}
+
 #content {
 	padding-top: @area-padding - 20px;
 	padding-bottom: @area-padding;
