@@ -7421,4 +7421,41 @@ button.close {
   background-size: 100%;
   background-color: #555555;
   color: #fff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#masthead a {
+  color: #b4d1ea;
+}
+#masthead a:hover,
+#masthead a:focus {
+  color: #eff5fb;
+}
+#masthead .site-branding .site-title a {
+  color: #fff;
+}
+#content {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#colophon {
+  background-color: #555555;
+  color: #fff;
+}
+#colophon a {
+  color: #b4d1ea;
+}
+#colophon a:hover,
+#colophon a:focus {
+  color: #eff5fb;
+}
+#colophon #footer-menu {
+  background-color: #555555;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#colophon #footer-line {
+  background-color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

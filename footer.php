@@ -10,17 +10,28 @@
  */
 
 ?>
+				</div><!-- .col -->
+			</div><!-- .row -->
 		</div><!-- .container -->
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="container">
-			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'winegum' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'winegum' ), 'WordPress' ); ?></a>
-				<span class="sep"> | </span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'winegum' ), 'winegum', '<a href="http://lgk.io" rel="designer">LGK</a>' ); ?>
-			</div><!-- .site-info -->
-		</div><!-- .container -->
+		<div id="footer-menu">
+			<div class="container">
+				HERE COMES THE MENU
+			</div><!-- .container -->
+		</div><!-- #footer-menu -->
+		
+		<div id="footer-line">
+			<div class="container">
+				<div class="site-info">
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'winegum' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'winegum' ), 'WordPress' ); ?></a>
+					<span class="sep"> | </span>
+					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'winegum' ), 'winegum', '<a href="http://lgk.io" rel="designer">LGK</a>' ); ?>
+				</div><!-- .site-info -->
+			</div><!-- .container -->
+		</div><!-- #footer-line -->
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

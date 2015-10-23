@@ -16,9 +16,50 @@
 
 @import "../_bootstrap/bootstrap";
 
+@lighten_link_on_dark: 50%;
+@area-padding: 40px;
+
+@import "_mixins";
+
 // Header area
 #masthead {
 	background-size: 100%;
 	background-color: @gray;
 	color: #fff;
+	padding-top: @area-padding - 20px;
+	padding-bottom: @area-padding;
+	
+	.dark-area-links();
+	
+	.site-branding {
+		.site-title a {
+			color: #fff;
+		}
+	}
+}
+
+// Content area
+#content {
+	padding-top: @area-padding - 20px;
+	padding-bottom: @area-padding;
+}
+
+// Footer area
+#colophon {
+	background-color: @gray;
+	color: #fff;
+	
+	.dark-area-links();
+	
+	#footer-menu {
+		background-color: @gray;
+		padding-top: @area-padding;
+		padding-bottom: @area-padding;
+	}
+	
+	#footer-line {
+		background-color: @gray-dark;
+		padding-top: @area-padding / 2;
+		padding-bottom: @area-padding / 2;
+	}
 }

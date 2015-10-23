@@ -1,0 +1,10 @@
+.dark-area-links() {
+	a {
+		color: lighten(@link-hover-color, @lighten_link_on_dark);
+	}
+	
+	a:hover,
+	a:focus {
+		color: lighten(@link-color, @lighten_link_on_dark);
+	}	
+}
