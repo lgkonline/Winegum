@@ -1,7 +1,7 @@
 Winegum 2.0
 ===========
 
-CHANGE CHANGE!
+Welcome to this new Winegum.
 
 Contributors: automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
