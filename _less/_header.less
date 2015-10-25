@@ -1,0 +1,40 @@
+// Header area
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+}
+
+#masthead {
+	background-size: 100%;
+	background-color: @gray;
+	color: #fff;
+	padding-top: @area-padding - 20px;
+	padding-bottom: @area-padding;
+	
+	// .dark-area-links();
+	
+	.site-branding {
+		.site-title a {
+			color: #fff;
+		}
+	}
+	
+	.nav-menu {
+		margin: 0;
+		display: none;
+		
+		> li > a {
+			color: #fff;
+		}
+		
+		> li:not(.active) > a {
+			background-color: fade(#000, 10%);
+		}
+		
+		> li > a:hover,
+		> li > a:focus {
+			background-color: @brand-primary;
+		}
+	}
+}
